@@ -14,18 +14,77 @@
             text-align: center;
             }
 
+            .wrapper {
+            max-width: 1200px;
+            min-width: 800px;
+            position: absolute;
+            left: 360px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            overflow: hidden; 
+            }
+
+            .myeducation {
+            position: relative;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            max-width: 1200px;
+            min-width: 800px;
+            margin: auto;
+            }
+
+            .workexp {
+            position: relative;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            max-width: 1200px;
+            min-width: 800px;
+            margin: auto;
+            }
+
+            .myproject {
+            position: relative;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            max-width: 1200px;
+            min-width: 800px;
+            margin: auto;
+            }
+
             .title {
             color: grey;
             font-size: 18px;
             }
 
-            button {
+            button.contact {
             border: none;
             outline: 0;
             display: inline-block;
             padding: 8px;
             color: white;
-            background-color: #000;
+            background-color: peru;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+            font-size: 18px;
+            }
+
+            button.mywork {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 8px;
+            color: white;
+            background-color: #a19d94;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+            font-size: 18px;
+            }
+
+            button.files {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 8px;
+            color: white;
+            background-color: #997a8d;
             text-align: center;
             cursor: pointer;
             width: 100%;
@@ -52,13 +111,38 @@
             <img src="img/aboutme.jpg" alt="meen" style="width:100%">
             <h1>Supawat Suntornlimsiri</h1>
             <p class="title">Web Developer & Engineer</p>
-            <p>KMITL Thailand</p>
+            <p>KMITL Bangkok Thailand</p>
             <a href="#"><i class="fa fa-dribbble"></i></a>
             <a href="#"><i class="fa fa-twitter"></i></a>
             <a href="#"><i class="fa fa-linkedin"></i></a>
             <a href="#"><i class="fa fa-facebook"></i></a>
-            <p><button>Contact</button></p>
+            <p><button class="mywork">My Work</button></p>
+            <p><button class="contact">Contact</button></p>
+            <p><button class="files">Files</button></p>
+        </div>
+        <div class="wrapper">
+            <div class="myeducation">
+                <h1>My Education</h1>
+                <p class="title">Web Developer & Engineer</p>
+                <p>KMITL Bangkok Thailand</p>
             </div>
+            <div class="workexp">
+                <h1>Work Experiences</h1>
+                <p class="title">Web Developer & Engineer</p>
+                <p>KMITL Bangkok Thailand</p>
+                <br/>
+                <h1>Digital Skills</h1>
+                <p class="title">Web Developer & Engineer</p>
+                <p>KMITL Bangkok Thailand</p>
+            </div>
+            <div class="myproject">
+                <h1>My Work & Project</h1>
+                <p class="title">Web Developer & Engineer</p>
+                <p>KMITL Bangkok Thailand</p>
+            </div>
+        </div>
+        
+
         
         <script>
             AOS.init();
