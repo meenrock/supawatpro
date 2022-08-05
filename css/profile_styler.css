@@ -43,6 +43,15 @@ body.dark {
 	background-size: cover;
 	text-align: left;
 	background-position: center;
+	
+}
+
+.first h1 {
+	color: var(--light);
+	font-weight: bold;
+	padding: 0;
+	margin: 30px;
+	font-size: 40px;
 }
 
 .logo {
@@ -102,14 +111,6 @@ body.dark {
 	background-color: var(--green);
 	transition: 500ms ease-in-out;
 	transform: scale(1.2);
-}
-
-.first h1 {
-	color: var(--light);
-	font-weight: bold;
-	padding: 0;
-	margin: 30px;
-	font-size: 50px;
 }
 
 .landing {
@@ -528,3 +529,38 @@ textarea {
 	margin: 0px 0;
 	min-height: 100px;
 }
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	max-width: 300px;
+	margin: auto;
+	text-align: center;
+  }
+  
+  .title {
+	color: grey;
+	font-size: 18px;
+  }
+  
+  button {
+	border: none;
+	outline: 0;
+	display: inline-block;
+	padding: 8px;
+	color: white;
+	background-color: #000;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+	font-size: 18px;
+  }
+  
+  a {
+	text-decoration: none;
+	font-size: 22px;
+	color: black;
+  }
+  
+  button:hover, a:hover {
+	opacity: 0.7;
+  }
