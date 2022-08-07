@@ -26,8 +26,17 @@
     min-width: 800px;
     margin: auto;
     font-family: 'Sora';
-    font-size: 14px;
+    font-size: 18px;
     }
+
+        .myeducation hr {
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 10px;
+            background-color:rgb(160, 92, 92);
+            opacity: 0.5;
+        }
 
     .workexp {
     position: relative;
