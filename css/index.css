@@ -58,6 +58,17 @@
     font-size: 18px;
     }
 
+        .workexp hr {
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 10px;
+            background-color:rgb(160, 92, 92);
+            opacity: 0.5;
+        }
+
+        
+
     .myproject {
     position: relative;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
