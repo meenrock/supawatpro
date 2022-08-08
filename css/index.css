@@ -15,10 +15,17 @@
     font-size: 15px;
     }
 
+        .card-contact img {
+        width: 4%;
+        position: relative;
+        }
+    
+
     .outlook-pic {
     width: 10%;
     position: relative;
     }
+
 
     .wrapper {
     max-width: 1200px;
@@ -68,6 +75,7 @@
         }
 
         
+
 
     .myproject {
     position: relative;
