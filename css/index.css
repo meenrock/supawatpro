@@ -87,6 +87,18 @@
     font-size: 18px;
     }
 
+    
+    .ediproj {
+        position: relative;
+        max-width: 1200px;
+        min-width: 800px;
+        margin: auto;
+        left: 40px;
+        font-family: 'Sora';
+        font-size: 17px;
+    }
+
+
     .title {
     color: grey;
     font-size: 18px;
