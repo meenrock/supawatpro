@@ -1,6 +1,6 @@
 .second {
-	width: 700px;
-	max-width: 100%;
+	width: 600px;
+	max-width: 80%;
 	min-height: 500px;
 	display: flex;
 	align-items: center;
@@ -29,6 +29,8 @@
 	background-size: cover;
 	text-align: left;
 	background-position: center;
+	font-family: 'Sora';
+    font-size: 20px;
 }
 
 .logo {
