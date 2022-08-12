@@ -2,3 +2,77 @@
     position: relative;
     left: 360px;
 }
+
+.card {
+    position: absolute;
+    left: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    min-width: 220px;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Sora';
+    font-size: 20px;
+    }
+
+    .card-contact {
+    font-family: 'Sora';
+    font-size: 15px;
+    }
+
+        .card-contact img {
+        width: 4%;
+        position: relative;
+        }
+    
+
+    
+
+
+    .wrapper {
+    max-width: 1200px;
+    min-width: 800px;
+    position: relative;
+    left: 360px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    overflow: hidden; 
+    }
+
+    button.contact {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: peru;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+        }
+    
+        button.mywork {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: #a19d94;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+        }
+    
+        button.files {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: #997a8d;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+        }
