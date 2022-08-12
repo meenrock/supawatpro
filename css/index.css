@@ -21,10 +21,7 @@
         }
     
 
-    .outlook-pic {
-    width: 10%;
-    position: relative;
-    }
+    
 
 
     .wrapper {
@@ -72,6 +69,10 @@
             height: 10px;
             background-color:rgb(160, 92, 92);
             opacity: 0.5;
+        }
+
+        .workexp img {
+            size: 30px;
         }
 
         
