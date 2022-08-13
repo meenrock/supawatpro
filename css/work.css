@@ -30,22 +30,6 @@
 	margin-top: 50px;
 }
 
-.python-2 {
-	width: 600px;
-	max-width: 80%;
-	min-height: 500px;
-	display: flex;
-	align-items: center;
-	margin-left: 30px;
-	justify-content: center;
-	background-image: url(bg/work/python2.jpg);
-	background-size: 80%;
-	background-position: center;
-	background-repeat: no-repeat;
-	z-index: -1;
-	margin-top: 1200px;
-}
-
 .server {
 	width: 600px;
 	max-width: 80%;
