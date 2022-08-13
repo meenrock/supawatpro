@@ -97,7 +97,7 @@
 }
 
 .logo {
-	color: var(--light);
+	color: black;
 	font-weight: bold;
 	display: flex;
 	align-items: center;
@@ -107,26 +107,20 @@
 }
 
 .first h2 {
-	color: var(--light);
+	color: black;
 	margin: 0 30px;
 	font-size: 17px;
 	padding: 100px 0;
 }
 
 	.first h2:hover {
-		color: var(--green);
+		color: peru;
 		transition: 0.2s linear;
 		transform: scale(1.1);
 	}
 
-.btn:hover {
-	background-color: var(--green);
-	transition: 500ms ease-in-out;
-	transform: scale(1.2);
-}
-
 .first h1 {
-	color: var(--light);
+	color: black;
 	font-weight: bold;
 	padding: 0;
 	margin: 30px;
@@ -154,9 +148,10 @@
 }
 
 .btn:hover {
-	background-color: #2ecc71;
+	background-color: #997a8d;
 	transition: 500ms ease-in-out;
 	transform: scale(1.1);
+	color: whitesmoke;
 	font-family: 'Sora';
     font-size: 16px;
 }
