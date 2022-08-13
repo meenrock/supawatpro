@@ -1,4 +1,4 @@
-.second {
+.mernstack {
 	width: 600px;
 	max-width: 80%;
 	min-height: 500px;
@@ -9,6 +9,68 @@
 	background-image: url(undraw.svg);
 	background-size: cover;
 	background-position: center;
+	z-index: -1;
+	margin-top: 300px;
+}
+
+.python {
+	width: 600px;
+	max-width: 80%;
+	min-height: 500px;
+	display: flex;
+	align-items: center;
+	margin: 10px;
+	justify-content: center;
+	background-image: url(undraw.svg);
+	background-size: cover;
+	background-position: center;
+	z-index: -1;
+	margin-top: 430px;
+}
+
+.server {
+	width: 600px;
+	max-width: 80%;
+	min-height: 500px;
+	display: flex;
+	align-items: center;
+	margin: 10px;
+	justify-content: center;
+	background-image: url(undraw.svg);
+	background-size: cover;
+	background-position: center;
+	z-index: -1;
+	margin-top: 430px;
+}
+
+.edipay {
+	width: 600px;
+	max-width: 80%;
+	min-height: 500px;
+	display: flex;
+	align-items: center;
+	margin: 10px;
+	justify-content: center;
+	background-image: url(undraw.svg);
+	background-size: cover;
+	background-position: center;
+	z-index: -1;
+	margin-top: 300px;
+}
+
+.pricecal {
+	width: 600px;
+	max-width: 80%;
+	min-height: 500px;
+	display: flex;
+	align-items: center;
+	margin: 10px;
+	justify-content: center;
+	background-image: url(undraw.svg);
+	background-size: cover;
+	background-position: center;
+	z-index: -1;
+	margin-top: 400px;
 }
 
 .landing .row {
