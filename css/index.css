@@ -1,19 +1,19 @@
     .card {
-    position: fixed;
+    position: absolute;
     top: 8px;
     left: 30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    min-width: 190px;
-    max-width: 250px;
+    min-width: 16.2%;
+    max-width: 16.2%;
     margin: auto;
     text-align: center;
     font-family: 'Sora';
-    font-size: 15px;
+    font-size: 15px 8px;
     }
 
     .card-contact {
     font-family: 'Sora';
-    font-size: 14px;
+    font-size: 14px 7px;
     }
 
         .card-contact img {
