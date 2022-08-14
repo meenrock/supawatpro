@@ -7,7 +7,7 @@
 	margin: 10px;
 	justify-content: center;
 	background-image: url(undraw1.svg);
-	background-size: 80%;
+	background-size: 80% 40%;
 	background-position: center;
 	background-repeat: no-repeat;
 	z-index: -1;
@@ -39,8 +39,9 @@
 	margin: 10px;
 	justify-content: center;
 	background-image: url(undraw1.svg);
-	background-size: cover;
+	background-size: 80% 40%;
 	background-position: center;
+	background-repeat: no-repeat;
 	z-index: -1;
 	margin-top: 430px;
 }
@@ -54,8 +55,9 @@
 	margin: 10px;
 	justify-content: center;
 	background-image: url(undraw.svg);
-	background-size: cover;
+	background-size: 80% 40%;
 	background-position: center;
+	background-repeat: no-repeat;
 	z-index: -1;
 	margin-top: 300px;
 }
@@ -69,8 +71,9 @@
 	margin: 10px;
 	justify-content: center;
 	background-image: url(undraw2.svg);
-	background-size: cover;
+	background-size: 80% 40%;
 	background-position: center;
+	background-repeat: no-repeat;
 	z-index: -1;
 	margin-top: 400px;
 }
