@@ -20,10 +20,10 @@
 	min-height: 500px;
 	display: flex;
 	align-items: center;
-	margin-left: 30px;
+	margin-left: 1%;
 	justify-content: center;
 	background-image: url(bg/work/python.jpg);
-	background-size: 80%;
+	background-size: 80% 40%;
 	background-position: center;
 	background-repeat: no-repeat;
 	z-index: -1;
