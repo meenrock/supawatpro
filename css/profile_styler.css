@@ -1,3 +1,34 @@
+@media only screen and (max-width: 600px) {
+	.second {
+		width: 225px;
+		height: 300px;
+		max-width: 80%;
+		display: flex;
+		align-items: center;
+		margin: 10px;
+		justify-content: center;
+		background-image: url(bg/mypic/trivialfacts.jpg);
+		background-size: cover;
+		background-position: center;
+	}
+	
+	.contact {
+		width: 225px;
+		height: 300px;
+		resize: both;
+		position: relative;
+		background-size: 120%;
+		display: flex;
+		align-items: center;
+		margin-top: 10px;
+		justify-content: center;
+		background-image: url(bg/mypic/aboutme.jpg);
+		background-position: center;
+		background-repeat: no-repeat;
+		z-index: -1;
+	}
+  }
+
 .second {
 	width: 450px;
 	height: 600px;
