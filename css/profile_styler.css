@@ -1,12 +1,13 @@
 .second {
-	width: 600px;
+	width: 450px;
+	height: 600px;
 	max-width: 80%;
 	min-height: 500px;
 	display: flex;
 	align-items: center;
 	margin: 10px;
 	justify-content: center;
-	background-image: url(undraw.svg);
+	background-image: url(bg/mypic/trivialfacts.jpg);
 	background-size: cover;
 	background-position: center;
 }
