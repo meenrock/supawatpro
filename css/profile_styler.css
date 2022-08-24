@@ -12,9 +12,11 @@
 }
 
 .contact {
-	width: 900px;
-	height: 1200px;
-	scale: 40%;
+	width: 450px;
+	height: 600px;
+	resize: both;
+	position: relative;
+	background-size: 120%;
 	display: flex;
 	align-items: center;
 	margin-top: 10px;
