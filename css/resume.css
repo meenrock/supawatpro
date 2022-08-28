@@ -163,6 +163,8 @@
         overflow: hidden;
         font-family: 'Sora';
         font-size: 16px;
+        max-width: 100%;
+        min-width: 15%;
         }
         
         /* Style the links inside the navigation bar */
@@ -192,6 +194,8 @@
         overflow: hidden;
         font-family: 'Sora';
         font-size: 16px;
+        max-width: 100%;
+        min-width: 15%;
         }
         
         /* Style the links inside the navigation bar */
@@ -221,3 +225,27 @@
         font-size: 16px;
         margin-left: 70%;
         }
+
+    @media all and (max-width: 700px) {
+        img.image-res1 {
+            max-width: 30%;
+            min-width: 15%;
+            position: relative;
+            margin: 2% 5%
+        }
+    }
+
+    @media all and (min-width: 700px) {
+        img.image-res1 {
+            max-width: 90%;
+            min-width: 15%;
+            position: relative;
+            margin: 2% 5%
+        }
+    }
+
+    
+
+    
+
+    
