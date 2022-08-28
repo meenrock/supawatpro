@@ -6,7 +6,7 @@
 	align-items: center;
 	margin: 10px;
 	justify-content: center;
-	background-image: url(undraw1.svg);
+	background-image: url(bg/work/weather.PNG);
 	background-size: 80% 40%;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -38,8 +38,7 @@
 	align-items: center;
 	margin: 10px;
 	justify-content: center;
-	background-image: url(undraw1.svg);
-	background-size: 80% 40%;
+	background-image: url(bg/work/pve.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	z-index: -1;
