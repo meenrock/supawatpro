@@ -8,16 +8,15 @@
         <link rel="stylesheet" href="css/index.css">
         <link rel="stylesheet" href="css/aos.css">
         <link rel="stylesheet" href="css/work.css">
-        <link rel="stylesheet" href="css/indexModal.css">
+        <link rel="stylesheet" href="css/modalHome.css">
         <script src="script/aos.js"></script>
         <script src="script/hyperlink.js"></script>
-        
+        <script src="script/index.js"></script>
        
     </head>
     <body>
         <div class="wrapper">
             <div class="myproject">
-                
                 <div class="topnav">
                     <a class="active" href="#anchorproject">Home</a>
                     <a href="https://meenrock.github.io/supawatpro/contact.html">Contact Me</a>
@@ -25,7 +24,15 @@
                     <a href="#about">Files</a>
                 </div>
                 <a id="anchorproject"></a>
+                
                 <div class="landing">
+                    <div class="modal-container">
+                        <div class="modal">
+                            <h1>Header</h1>
+                            <p>something arma dfend prascue chuvan</p>
+                            <button id="close">close</button>
+                        </div>
+                    </div>
                     <div class="row">
                         <div class="first" data-aos="fade-up"
                              data-aos-duration="2000">
@@ -38,7 +45,7 @@
                                         in query or mutation of GraphQL <br>
                                     </h2>
                                     <div class="buttons">
-                                        <a class="btn" id="btnexpress" onclick="ShowPopup">Implementation</a>
+                                        <button class="btn" id="btnexpress">Implementation</button>
                                     </div>
                                 </div>
                         </div>
