@@ -1,81 +1,3 @@
-.mernstack {
-	width: 600px;
-	max-width: 80%;
-	min-height: 500px;
-	display: flex;
-	align-items: center;
-	margin: 10px;
-	justify-content: center;
-	background-image: url(bg/work/weather.PNG);
-	background-position: center;
-	background-repeat: no-repeat;
-	z-index: -1;
-	margin-top: 300px;
-}
-
-.python {
-	width: 600px;
-	max-width: 80%;
-	min-height: 500px;
-	display: flex;
-	align-items: center;
-	margin-left: 1%;
-	justify-content: center;
-	background-image: url(bg/work/python.jpg);
-	background-size: 80% 40%;
-	background-position: center;
-	background-repeat: no-repeat;
-	z-index: -1;
-	margin-top: 50px;
-}
-
-.server {
-	width: 600px;
-	max-width: 80%;
-	min-height: 500px;
-	display: flex;
-	align-items: center;
-	margin: 10px;
-	justify-content: center;
-	background-image: url(bg/work/pve.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	z-index: -1;
-	margin-top: 430px;
-}
-
-.edipay {
-	width: 600px;
-	max-width: 80%;
-	min-height: 500px;
-	display: flex;
-	align-items: center;
-	margin: 10px;
-	justify-content: center;
-	background-image: url(undraw.svg);
-	background-size: 80% 40%;
-	background-position: center;
-	background-repeat: no-repeat;
-	z-index: -1;
-	margin-top: 300px;
-}
-
-.pricecal {
-	width: 600px;
-	max-width: 80%;
-	min-height: 500px;
-	display: flex;
-	align-items: center;
-	margin: 10px;
-	justify-content: center;
-	background-image: url(undraw2.svg);
-	background-size: 80% 40%;
-	background-position: center;
-	background-repeat: no-repeat;
-	z-index: -1;
-	margin-top: 400px;
-}
-
 .landing .row {
 	display: flex;
 	align-items: center;
@@ -130,6 +52,84 @@
 		font-size: 14px;
 	}
 
+	.mernstack {
+		width: 600px;
+		max-width: 80%;
+		min-height: 500px;
+		display: flex;
+		align-items: center;
+		margin: 10px;
+		justify-content: center;
+		background-image: url(bg/work/weather.PNG);
+		background-position: center;
+		background-repeat: no-repeat;
+		z-index: -1;
+		margin-top: 300px;
+	}
+	
+	.python {
+		width: 600px;
+		max-width: 80%;
+		min-height: 500px;
+		display: flex;
+		align-items: center;
+		margin-left: 1%;
+		justify-content: center;
+		background-image: url(bg/work/python.jpg);
+		background-size: 80% 40%;
+		background-position: center;
+		background-repeat: no-repeat;
+		z-index: -1;
+		margin-top: 50px;
+	}
+	
+	.server {
+		width: 600px;
+		max-width: 80%;
+		min-height: 500px;
+		display: flex;
+		align-items: center;
+		margin: 10px;
+		justify-content: center;
+		background-image: url(bg/work/pve.jpg);
+		background-position: center;
+		background-repeat: no-repeat;
+		z-index: -1;
+		margin-top: 430px;
+	}
+	
+	.edipay {
+		width: 600px;
+		max-width: 80%;
+		min-height: 500px;
+		display: flex;
+		align-items: center;
+		margin: 10px;
+		justify-content: center;
+		background-image: url(undraw.svg);
+		background-size: 80% 40%;
+		background-position: center;
+		background-repeat: no-repeat;
+		z-index: -1;
+		margin-top: 300px;
+	}
+	
+	.pricecal {
+		width: 600px;
+		max-width: 80%;
+		min-height: 500px;
+		display: flex;
+		align-items: center;
+		margin: 10px;
+		justify-content: center;
+		background-image: url(undraw2.svg);
+		background-size: 80% 40%;
+		background-position: center;
+		background-repeat: no-repeat;
+		z-index: -1;
+		margin-top: 400px;
+	}
+
 }
 
 @media screen and (min-width: 700px) {
@@ -167,6 +167,84 @@
 		background-position: center;
 		font-family: 'Sora';
 		font-size: 20px;
+	}
+
+	.mernstack {
+		width: 600px;
+		max-width: 80%;
+		min-height: 500px;
+		display: flex;
+		align-items: center;
+		margin: 10px;
+		justify-content: center;
+		background-image: url(bg/work/weather.PNG);
+		background-position: center;
+		background-repeat: no-repeat;
+		z-index: -1;
+		margin-top: 300px;
+	}
+	
+	.python {
+		width: 600px;
+		max-width: 80%;
+		min-height: 500px;
+		display: flex;
+		align-items: center;
+		margin-left: 1%;
+		justify-content: center;
+		background-image: url(bg/work/python.jpg);
+		background-size: 80% 40%;
+		background-position: center;
+		background-repeat: no-repeat;
+		z-index: -1;
+		margin-top: 50px;
+	}
+	
+	.server {
+		width: 600px;
+		max-width: 80%;
+		min-height: 500px;
+		display: flex;
+		align-items: center;
+		margin: 10px;
+		justify-content: center;
+		background-image: url(bg/work/pve.jpg);
+		background-position: center;
+		background-repeat: no-repeat;
+		z-index: -1;
+		margin-top: 430px;
+	}
+	
+	.edipay {
+		width: 600px;
+		max-width: 80%;
+		min-height: 500px;
+		display: flex;
+		align-items: center;
+		margin: 10px;
+		justify-content: center;
+		background-image: url(undraw.svg);
+		background-size: 80% 40%;
+		background-position: center;
+		background-repeat: no-repeat;
+		z-index: -1;
+		margin-top: 300px;
+	}
+	
+	.pricecal {
+		width: 600px;
+		max-width: 80%;
+		min-height: 500px;
+		display: flex;
+		align-items: center;
+		margin: 10px;
+		justify-content: center;
+		background-image: url(undraw2.svg);
+		background-size: 80% 40%;
+		background-position: center;
+		background-repeat: no-repeat;
+		z-index: -1;
+		margin-top: 400px;
 	}
 
 }
