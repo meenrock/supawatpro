@@ -51,8 +51,6 @@
             font-size: 12px;
             max-width: 44%;
             min-width: 15%;
-            display: flex;
-            flex-wrap: nowrap;
             }
             
             /* Style the links inside the navigation bar */
