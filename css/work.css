@@ -1,9 +1,4 @@
-.landing .row {
-	display: flex;
-	align-items: center;
-	min-height: 500px;
-	justify-content: space-evenly;
-}
+
 
 .logo {
 	color: black;
@@ -16,6 +11,13 @@
 }
 
 @media screen and (max-width: 700px) {
+	.landing .row {
+		display: flex;
+		align-items: flex-start;
+		min-height: 500px;
+		justify-content: space-evenly;
+	}
+
     .first h2 {
 		color: black;
 		margin: 0 10px;
@@ -35,6 +37,7 @@
 		padding: 0;
 		margin: 10px;
 		font-size: 30px;
+
 	}
 
 	.first {
@@ -55,22 +58,22 @@
 	.mernstack {
 		width: 600px;
 		max-width: 80%;
-		min-height: 500px;
+		min-height: 340px;
 		display: flex;
-		align-items: center;
+		align-items: flex-start;
 		margin: 10px;
 		justify-content: center;
 		background-image: url(bg/work/weather.PNG);
 		background-position: center;
 		background-repeat: no-repeat;
 		z-index: -1;
-		margin-top: 300px;
+		margin-top: 150px;
 	}
 	
 	.python {
 		width: 600px;
 		max-width: 80%;
-		min-height: 500px;
+		min-height: 700px;
 		display: flex;
 		align-items: center;
 		margin-left: 1%;
@@ -80,13 +83,13 @@
 		background-position: center;
 		background-repeat: no-repeat;
 		z-index: -1;
-		margin-top: 50px;
+		margin-top: 150px;
 	}
 	
 	.server {
 		width: 600px;
 		max-width: 80%;
-		min-height: 500px;
+		min-height: 700px;
 		display: flex;
 		align-items: center;
 		margin: 10px;
@@ -95,13 +98,13 @@
 		background-position: center;
 		background-repeat: no-repeat;
 		z-index: -1;
-		margin-top: 430px;
+		margin-top: 150px;
 	}
 	
 	.edipay {
 		width: 600px;
 		max-width: 80%;
-		min-height: 500px;
+		min-height: 700px;
 		display: flex;
 		align-items: center;
 		margin: 10px;
@@ -111,13 +114,13 @@
 		background-position: center;
 		background-repeat: no-repeat;
 		z-index: -1;
-		margin-top: 300px;
+		margin-top: 150px;
 	}
 	
 	.pricecal {
 		width: 600px;
 		max-width: 80%;
-		min-height: 500px;
+		min-height: 700px;
 		display: flex;
 		align-items: center;
 		margin: 10px;
@@ -127,12 +130,20 @@
 		background-position: center;
 		background-repeat: no-repeat;
 		z-index: -1;
-		margin-top: 400px;
+		margin-top: 150px;
 	}
 
 }
 
 @media screen and (min-width: 700px) {
+
+	.landing .row {
+		display: flex;
+		align-items: center;
+		min-height: 500px;
+		justify-content: space-evenly;
+	}
+
 	.first h2 {
 		color: black;
 		margin: 0 30px;
